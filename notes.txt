@@ -1,0 +1,15 @@
+
+<body>
+
+ <nav>
+ 	<div>First </div>
+ 	<div>Second</div>
+ </nav>
+
+ <section id="content">
+ 	<section id="first">The content for the first one</section>
+
+ 	<secion id="second">The content for second nav item</section>
+
+ </section>
+</body>

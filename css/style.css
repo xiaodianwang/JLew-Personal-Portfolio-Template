@@ -1,0 +1,116 @@
+body {
+	font-family: "Alegreya Sans", "Beirut", sans-serif;
+	margin: 0em;
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	background: #000000;
+}
+
+.content-img {
+	float: center;
+}
+
+nav {
+	position: relative;
+}
+
+.main-content {
+	margin: 0 5em;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.vert-centered {
+	top: 50%;
+	transform: translateY(-50%);
+	transform-style: preserve-3d;
+}
+
+.arrow, .hamburger-menu {
+	position: relative;
+	font-size: large;
+	font-weight: 200;
+	padding: 0.2em;
+}
+
+.hidden-symbol {
+	display: none;
+}
+
+#main-wrapper {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.fadeInBkgnd {
+	background-size: cover;	
+	z-index: -3;
+	background-repeat: no-repeat;
+}
+
+.menu-item {
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	display: flex;
+	flex-flow: row || no-wrap;
+	position:relative;
+	margin: 0 1em 2em 1em;
+	transition-property: top 2s;
+	min-height: 17%;
+
+}
+
+.menu-item > .project, .role, .org, .date {
+	flex: 1;
+	padding: 0.5em 1em 0 1em;
+	overflow: hidden;
+}
+
+.menu-item > .role, .org, .date {
+	border-left: 1px solid #ffffff;
+}
+
+.heading {
+	text-transform: lowercase;
+	font-weight: 100;
+}
+
+.heading-name {
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: large;
+	margin: 0.2em 0;
+}
+
+/*
+.menu-item {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	top: 0px;
+	width: 95vw;
+}*/
+
+.main-content {
+	color: #ffffff;
+}
+
+.inactive {
+	transition: opacity 2s;
+	visibility: hidden;
+}
+
+.active {
+	position: relative;
+	opacity: 1;
+	top: 0; /* should be the top of page */
+}
+
+.menu-bkgnd {
+
+}
